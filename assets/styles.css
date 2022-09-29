@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("./hockey6.png");
+}
+
+header {
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    background-image: url("./hockey6.png");
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.titulo img {
+    height: 8rem;
+    box-shadow: 10px 10px 20px 20px;
+    border-radius: 2rem;
+    color: white;
+}
+.titulo img:hover{
+    transform: translate(2rem, 2rem) scale(4);
+    transition: all 0.5s;
+    background-color: black;
+}
+.titulo h1{
+    padding: 1rem;
+    color: rgb(245, 233, 233);/* 
+    background-color: rgb(0, 0, 0); */
+    box-shadow: 10px 10px 10px 20px;
+    margin-left: 3rem;
+    border-radius: 2rem;
+}
+.titulo h1:hover{
+    transform: translate(2rem, 2rem, 2rem)  scale(1);
+    transition: all 0.5s;
+    background-color: black;
+}
+.enlace{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+a:hover {
+ background-color: rgb(255, 255, 255);
+ color: black;
+}
+a{
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+header h2{
+    display: flex;
+    justify-content: center;; 
+    color: white;
+    
+}
+main {
+    min-height: 65vh;
+    width: 100%;
+    background-position: 1px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+   background-color: black;
+   color: white;
+   border-radius: 3rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   box-shadow: 10px 10px 10px 20px;
+
+}
+.section img{
+    height: 7rem;
+    border-radius: 1rem;
+}
+.section:hover {
+   transform: translate(2rem, 2rem, 2rem) scale(2);
+   transition: all 0.4s;
+   background-color: transparent;
+}
+.articulo1 {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    color: white;
+    border-radius: 2rem;
+    box-shadow: 50px 25px 50px 50px;
+}
+.subarticulo {
+    display: flex;
+    flex-direction: column;
+}
+.subarticulo img{
+    border-radius: 2rem;
+}
+.subarticulo1 {
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+}
+.contact1 img{
+    width: 200px;
+    border-radius: 2rem;
+}
+.contact2 {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+   
+
+
+/* GAME INFO */
+
+.gameinfo {
+    background-color: aliceblue;
+    padding: 1rem;
+}
+.gameinfo1{
+    background-color: aliceblue;
+    padding-bottom: 1rem;
+}
+.gameinfo2{
+    background-color: aliceblue ;
+    text-align: center;
+    
+}
+.gameinfo2 thead:hover{
+    background-color: bisque;
+}
+.gameinfo2 tbody tr:hover{
+    background-color: bisque;
+}
+
+.gameinfo3{
+    background-color:  aliceblue;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color:  aliceblue;
+    width: 40rem;
+}
+.info5{
+    display: flex;
+    justify-content: space-between;
+}
+.gameinfo {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    
+}
+aside{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+aside h5{
+    background-color: bisque;
+}
+
+/* RULES */
+.rule {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color:  aliceblue;   
+    font-size: 0.8rem;
+    width: 50%;
+    height:100%;
+    font-size: 0.8rem;
+    padding: 2rem;
+}
+.titulorules1{
+    text-align: center;
+}
+.titulorules3 ul{
+list-style-type: lower-alpha;
+}
+
+/* REGISTRATION */
+.registrationform {
+    display: flex;
+    flex-direction: column;
+}
+.registration {
+    background-color: beige ;
+
+}
+.form1 {
+    width: 50rem; 
+    padding: 2rem;
+    background-color: beige; 
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 1rem;
+   
+}
+
+.submit {
+    text-align: right;
+}
+.fieldset1 {
+    text-emphasis: none;
+    
+}
+fieldset{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+legend{
+    font-size: 1.5rem;
+}
+
+footer {
+    height: 10vh;
+     width: 100%;
+     background-image: url("./espn.png");
+     background-position: 1rem;
+     font-size: 1rem;
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+   
+}
